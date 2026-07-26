@@ -1,7 +1,26 @@
 aid: eggrock
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eggrock.png
 name: Eggrock
-description: Eggrock is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Eggrock (Eggrock Modular Solutions; legally Innovative Modular Pre-Fabrication
+  LLC) is a North American manufacturer of prefabricated "bathroom-in-a-box" pods
+  — complete, custom, ready-to-install bathrooms built off-site using BIM-driven design
+  and lean manufacturing for hotels, hospitals, dormitories, military barracks, and
+  other multi-unit construction projects. Off-site fabrication compresses construction
+  schedules and improves quality versus building bathrooms on site. In 2012 Eggrock
+  licensed exclusive North American manufacturing and distribution to Oldcastle Precast.
+  It is a construction / building-products manufacturer with no public API, developer
+  portal, SDK, or machine-readable developer surface.'
 url: https://raw.githubusercontent.com/api-evangelist/eggrock/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,25 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Construction
+- Modular Construction
+- Prefabrication
+- Manufacturing
+- Building Products
+- Bathroom Pods
+x-enrichment:
+  last-run: '2026-07-19'
+  outcome: no-developer-surface
+  method: searched
+  finding: Modular / prefabricated bathroom-pod manufacturer for multi-unit construction;
+    no public API, developer portal, OpenAPI, SDK, packages, MCP, or well-known surface
+    found. Original eggrock.com now 301-redirects to a parked domain (eggdomain.com);
+    North American manufacturing was licensed to Oldcastle Precast in 2012. The
+    battery-ventures portfolio linkage is unverified — Eggrock does not appear in
+    Battery Ventures' published portfolio list.
 apis: []
 maintainers:
 - FN: Kin Lane
